@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_24"
+        android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_add_expense"
+            android:icon="@drawable/add_expense_24"
+            android:title="Add Expense"/>
+
+        <item
+            android:id="@+id/nav_expense_list"
+            android:icon="@drawable/expense_list_24"
+            android:title="Expense List"/>
+
+    <item
+        android:id="@+id/nav_message"
+        android:icon="@drawable/message_24"
+        android:title="Message"/>
+    <item
+        android:id="@+id/nav_sync"
+        android:icon="@drawable/sync_24"
+        android:title="Sync"/>
+    <item
+        android:id="@+id/nav_trash"
+        android:icon="@drawable/delete_24"
+        android:title="Trash"/>
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/settings_24"
+        android:title="Setting"/>
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/login_24"
+                android:title="Loging"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_24"
+                android:title="Share"/>
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_review_24"
+                android:title="Rate Us"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

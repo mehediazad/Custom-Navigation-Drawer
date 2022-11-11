@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileId"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/azad"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/nameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Md. Mehedi Hasan Azad"
+        android:layout_below="@+id/profileId"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/user_name_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameId"
+        android:text="mehedi15-1930@diu.edu.bd"
+        android:textSize="12sp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name_Id"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="30"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/following_txtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name_Id"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/following"
+        android:text="Following"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name_Id"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/following_txtId"
+        android:text="4899"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/follower_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name_Id"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/followers"
+        android:text="Followers"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_below="@+id/follower_txt"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#E1DFDF"/>
+
+
+</RelativeLayout>
